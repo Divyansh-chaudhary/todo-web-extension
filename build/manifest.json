@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "description": "A Simple Todo App to create list, check & uncheck list and delete list item",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Todo App"
+  },
+  "short_name": "Todo App",
+  "name": "Todo App",
+  "icons": {
+    "16": "16x16.png",
+    "24": "24x24.png",
+    "32": "32x32.png",
+    "64": "64x64.png",
+    "192": "192x192.png",
+    "512": "512x512.png"
+  },
+  "permissions": [
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*/",
+    "http://*/"
+  ],
+  "version": "0.0.1"
+}
